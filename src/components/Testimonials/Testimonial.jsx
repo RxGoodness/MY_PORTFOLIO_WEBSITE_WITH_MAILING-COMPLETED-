@@ -5,6 +5,7 @@ import "swiper/css";
 
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
+import boyz from '../../img/boyz.png'
 import profilePic1 from "../../img/profile1.jpg";
 import profilePic2 from "../../img/profile2.jpg";
 import profilePic3 from "../../img/profile3.jpg";
@@ -13,24 +14,24 @@ import profilePic4 from "../../img/profile4.jpg";
 const Testimonial = () => {
   const clients = [
     {
-      img: profilePic1,
+      img: boyz,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "My best assistant ever, easy to communicate and perfect job done always!!!! Toheeb was able to deliver a user-friendly and well functioning project. Meticulously done and delivered much ahead of the due time. A pleasure to work with every time and highly recommended.          -- Natasha",
     },
     {
-      img: profilePic2,
+      img: boyz,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Toheeb succinctly do my work. I know have a comprehensive knowledge website thanks to him. Great and timely communication and the he is highly professional. I will recommend this service to anyone interested in a software development and will order again. --Ridwanu",
     },
     {
-      img: profilePic3,
+      img: boyz,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Toheeb is a great asset to any team he joins. A critical thinker, problem solver, business-minded and goal-oriented engineer, the best I've ever worked with. He gives 100% commitment to his assigned tasks and go extra miles, my recommendations.  --Naheem",
     },
     {
-      img: profilePic4,
+      img: boyz,
       review:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex officiis molestiae quod tempora laudantium, cumque error a nisi placeat quae exercitationem, maiores reiciendis! Eaque dicta minima, iure maiores dolorum sed.",
+        "Toheeb was great to work with I look forward to my next project with him. --Steve",
     },
   ];
 
