@@ -24,16 +24,13 @@ const Works = () => {
             Works for All these
           </span>
           <span>Brands & Clients</span>
-          <spane>
-            Lorem ispum is simpley dummy text of printing of printing Lorem
+          <span>
+            Global Performance Index Inc. <br />
+            Decagon Institute of Technology
             <br />
-            ispum is simpley dummy text of printingLorem ispum is simpley dummy
-            text
+            Side Hustle Technologies
             <br />
-            y dummy text of printingLorem
-            <br />
-            ispum is simpley dummy text of printing
-          </spane>
+            QEA solutions</span>
           <Link to="contact" smooth={true} spy={true}>
             <button className="button s-button">Hire Me</button>
           </Link>
