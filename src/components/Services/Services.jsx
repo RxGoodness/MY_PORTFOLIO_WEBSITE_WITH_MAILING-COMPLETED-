@@ -6,6 +6,7 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
+import Share from '../../img/Share.pdf'
 // import Resume from './resume.pdf';
 
 const Services = () => {
@@ -35,9 +36,9 @@ const Services = () => {
 
                </li>
         </span>
-        {/* <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
-        </a> */}
+         <a href={Share} download> 
+          <button className="button s-button">Download CV</button> 
+         </a> 
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>
       {/* right */}
