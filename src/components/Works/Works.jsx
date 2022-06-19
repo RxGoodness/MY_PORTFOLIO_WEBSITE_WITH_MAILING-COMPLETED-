@@ -23,7 +23,7 @@ const Works = () => {
           <span style={{ color: darkMode ? "white" : "" }}>
             Works for All these
           </span>
-          <span>Brands & Clients</span>
+          <span>Companies & Organisations</span>
           <span>
             Global Performance Index Inc. <br />
             Decagon Institute of Technology
@@ -32,7 +32,7 @@ const Works = () => {
             <br />
             QEA solutions</span>
           <Link to="contact" smooth={true} spy={true}>
-            <button className="button s-button">Hire Me</button>
+            <button className="button sw-button">Hire Me</button>
           </Link>
           <div
             className="blur s-blur1"
