@@ -7,6 +7,17 @@ const Contact = () => {
   const darkMode = theme.state.darkMode;
   const form = useRef();
   const [done, setDone] = useState(false)
+  // const initialState = {
+  //   "text": '',
+  //   "email": '',
+  //   "mesaage": ''
+  // }
+  // const [input, Input] = useState(initialState)
+
+  // const handleChange = (e) => {
+  //   setInput({ ...input, [e.target.name]: e.target.value });
+  // };
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -27,6 +38,7 @@ const Contact = () => {
           console.log(error.text);
         }
       );
+      e.target.reset();
   };
 
   return (
